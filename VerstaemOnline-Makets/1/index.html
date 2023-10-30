@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./vendor/css/main.css" />
+		<link
+			rel="stylesheet"
+			href="./vendor/libs/airdatepicker/air-datepicker.css"
+		/>
+	</head>
+	<body>
+		<div class="wrapper__site">
+			<header class="Header">
+				<div class="Header__logo">
+					<picture>
+						<source
+							srcset="./vendor/img/logo/logo1024.svg"
+							alt="logo"
+							media="(max-width: 1024px)"
+						/>
+						<source
+							srcset="./vendor/img/logo/logo768.svg"
+							alt="logo"
+							media="(max-width: 768px)"
+						/>
+						<img src="./vendor/img/logo/logo.svg" alt="logo" />
+					</picture>
+				</div>
+				<div class="Header__nav">
+					<nav>
+						<ul class="Header__nav-menu">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Про гида</a></li>
+							<li><a href="#">Программа тура</a></li>
+							<li><a href="#">Стоимость</a></li>
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="btn">
+						<p>Консультация</p>
+					</div>
+				</div>
+			</header>
+			<main>
+				<section class="Hero">
+					<div class="Hero__wrapper-inner">
+						<div class="Hero__wrapper-inner_container">
+							<div class="Hero__content">
+								<div class="Hero__text">
+									<p>Насладись прогулкой в горах</p>
+									<p>с командой единомышленников</p>
+								</div>
+
+								<div class="Hero__program">
+									<form action="#">
+										<div class="Hero__form-select form-col">
+											<select class="Hero__form-field" name="Loca" id="">
+												<option value="" disabled selected>
+													Локация для тура
+												</option>
+												<option value="Париж">Париж</option>
+												<option value="Париж">Париж</option>
+												<option value="Париж">Париж</option>
+											</select>
+											<label for="Loca">выберите из списка</label>
+										</div>
+										<div class="Hero__form-date form-col">
+											<input
+												class="Hero__form-field form-input"
+												type="date"
+												id="dataI"
+											/>
+											<label for="date">выберите диапозон</label>
+										</div>
+										<div class="Hero__form-select form-col">
+											<select class="Hero__form-field" name="peoples" id="">
+												<option value="" disabled selected>Участники</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+											</select>
+											<label for="peoples">минимум 4 человека</label>
+										</div>
+										<button type="submit" class="form-btn">
+											Найти программу
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="About">
+					<div class="About__wrapper">
+						<div class="About__left">
+							<div class="About__left-img">
+								<img src="./vendor/img/about1.jpeg" alt="tile" />
+								<img src="./vendor/img/about2.jpeg" alt="tile" />
+							</div>
+						</div>
+						<div class="About__right">
+							<div class="title-content">
+								<p class="subtitle">о нашем походе</p>
+								<h1 class="title">
+									Исследуйте все горные массивы мира вместе с нами
+								</h1>
+							</div>
+
+							<p class="About__text">
+								Его корни уходят в один фрагмент классической латыни 45 года
+								н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,
+								профессор латыни из колледжа Hampden-Sydney, штат Вирджиния,
+								взял одно из самых странных слов в Lorem Ipsum, "consectetur"и
+								занялся его поисками в классической латинской литературе.
+							</p>
+							<a href="#" class="btn">Программа тура</a>
+						</div>
+					</div>
+				</section>
+				<section class="About-2">
+					<div class="About__wrapper-2">
+						<div class="About__left-2">
+							<div class="title-content">
+								<p class="subtitle">наше предложение</p>
+								<h1 class="title">Лучшие программы для тебя</h1>
+							</div>
+							<p class="About__text">
+								Его корни уходят в один фрагмент классической латыни 45 года
+								н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,
+								профессор латыни из колледжа.
+							</p>
+							<ul class="About__desc">
+								<li>
+									<img src="./vendor/img/1.svg" alt="gid" />
+									<div class="About__desc-li">
+										<h1>Опытный гид</h1>
+										<p>
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+								</li>
+								<li>
+									<img src="./vendor/img/2.svg" alt="going" />
+									<div class="About__desc-li">
+										<h1>Безопасный поход</h1>
+										<p>
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+								</li>
+								<li>
+									<img src="./vendor/img/3.svg" alt="price" />
+									<div class="About__desc-li">
+										<h1>Лояльные цены</h1>
+										<p>
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+								</li>
+							</ul>
+
+							<a href="#" class="btn">Стоимость программ</a>
+						</div>
+						<div class="About__right-2">
+							<div class="About__right-group_one">
+								<img src="./vendor/img/galA1.jpeg" alt="1" />
+								<img src="./vendor/img/galA2.jpeg" alt="2" />
+							</div>
+							<div class="About__right-group_two">
+								<img src="./vendor/img/galA3.jpeg" alt="3" />
+								<img src="./vendor/img/galA4.jpeg" alt="4" />
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="Info">
+					<div class="title-content text-center">
+						<p class="subtitle">по версии отдыхающих</p>
+						<h1 class="title">Популярные направления</h1>
+					</div>
+					<div class="Info__card-container">
+						<div class="Info__card-item">
+							<div class="card-item__wrap-img">
+								<img src="./vendor/img/info3.jpeg" alt="bg" />
+							</div>
+							<div class="card-item_rating">
+								<img src="./vendor/img/start.svg" alt="star" />
+								<p class="rate">5.0</p>
+							</div>
+							<div class="card-item__desc">
+								<div class="card-item__desc-title">
+									<h1 class="card-item__title">Озеро возле гор</h1>
+									<p class="card-item__text">романтическое приключение</p>
+								</div>
+								<div class="price">
+									<p>500 <span>$</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="Info__card-item">
+							<div class="card-item__wrap-img">
+								<img src="./vendor/img/info2.jpeg" alt="bg" />
+							</div>
+							<div class="card-item_rating">
+								<img src="./vendor/img/start.svg" alt="star" />
+								<p class="rate">4.9</p>
+							</div>
+							<div class="card-item__desc">
+								<div class="card-item__desc-title">
+									<h1 class="card-item__title">Ночь в горах</h1>
+									<p class="card-item__text">в компании друзей</p>
+								</div>
+								<div class="price">
+									<p>480 <span>$</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="Info__card-item">
+							<div class="card-item__wrap-img">
+								<img src="./vendor/img/info1.jpeg" alt="bg" />
+							</div>
+							<div class="card-item_rating">
+								<img src="./vendor/img/start.svg" alt="star" />
+								<p class="rate">4.3</p>
+							</div>
+							<div class="card-item__desc">
+								<div class="card-item__desc-title">
+									<h1 class="card-item__title">Йога в горах</h1>
+									<p class="card-item__text">для тех, кто забоится о себе</p>
+								</div>
+								<div class="price">
+									<p>230 <span>$</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="btn">Рейтинг направлений</a>
+				</section>
+				<section class="Blog">
+					<div class="Blog__title text-center">
+						<p class="subtitle">делимся впечатлениями</p>
+						<h1 class="title">Блог о путешествиях</h1>
+					</div>
+					<div class="Blog__card-container">
+						<div class="Blog__card-item">
+							<div class="Blog__card-item_wrapper">
+								<div class="Blog__card-item_left">
+									<img src="./vendor/img/blog1.jpeg" alt="bg" />
+								</div>
+								<div class="Blog__card-item_right">
+									<div class="Blog__card-item_title">
+										<h1>Красивая Италя, какая она в реальности?</h1>
+									</div>
+									<div class="Blog__card-item_text">
+										<p>
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+									<div class="Blog__card-item_more">
+										<p class="Blog__card-item_date">01/04/2023</p>
+										<p class="Blog__card-item_readmore">читать статью</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="Blog__card-item">
+							<div class="Blog__card-item_wrapper">
+								<div class="Blog__card-item_left">
+									<img src="./vendor/img/blog2.jpeg" alt="bg" />
+								</div>
+								<div class="Blog__card-item_right">
+									<div class="Blog__card-item_title">
+										<h1>Красивая Италя, какая она в реальности?</h1>
+									</div>
+									<div class="Blog__card-item_text">
+										<p>
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+									<div class="Blog__card-item_more">
+										<p class="Blog__card-item_date">01/04/2023</p>
+										<p class="Blog__card-item_readmore">читать статью</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="Blog__card-item">
+							<div class="Blog__card-item_wrapper">
+								<div class="Blog__card-item_left">
+									<img src="./vendor/img/blog3.jpeg" alt="bg" />
+								</div>
+								<div class="Blog__card-item_right">
+									<div class="Blog__card-item_title">
+										<h1>Красивая Италя, какая она в реальности?</h1>
+									</div>
+									<div class="Blog__card-item_text">
+										<p>
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+									<div class="Blog__card-item_more">
+										<p class="Blog__card-item_date">01/04/2023</p>
+										<p class="Blog__card-item_readmore">читать статью</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="Blog__card-item">
+							<div class="Blog__card-item_wrapper">
+								<div class="Blog__card-item_left">
+									<img src="./vendor/img/blog4.jpeg" alt="bg" />
+								</div>
+								<div class="Blog__card-item_right">
+									<div class="Blog__card-item_title">
+										<h1>Красивая Италя, какая она в реальности?</h1>
+									</div>
+									<div class="Blog__card-item_text">
+										<p>
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+									<div class="Blog__card-item_more">
+										<p class="Blog__card-item_date">01/04/2023</p>
+										<p class="Blog__card-item_readmore">читать статью</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="btn">Другие материалы</a>
+				</section>
+				<section class="Gallery">
+					<div class="Gallery__title text-center">
+						<p class="subtitle">фото-отчет</p>
+						<h1 class="title">Делимся впечатлениями</h1>
+					</div>
+					<div class="Gallery__item">
+						<div class="col-1 col">
+							<img src="./vendor/img/gallery1.jpeg" alt="bg" />
+							<img src="./vendor/img/gallery2.jpeg" alt="bg" />
+							<img src="./vendor/img/gallery3.jpeg" alt="bg" />
+						</div>
+						<div class="col-2 col">
+							<img src="./vendor/img/gallery4.jpeg" alt="bg" />
+							<img src="./vendor/img/gallery5.jpeg" alt="bg" />
+							<img src="./vendor/img/gallery6.jpeg" alt="bg" />
+						</div>
+					</div>
+					<a href="#" class="btn">Наш pinterest</a>
+				</section>
+				<section class="Contact">
+					<div class="Contact__wrapper">
+						<div class="Contact__title-block">
+							<p class="Contact__subtitle">актуально</p>
+							<h1 class="Contack__title">
+								Получайте полезные рассылки о путешествиях
+							</h1>
+						</div>
+						<div class="Contact__right">
+							<div class="Contact__right-up">
+								<form action="">
+									<div class="Form__field-contact">
+										<input type="text" required placeholder="name@domain.com" />
+										<label for="text">Введите e-mail адрес</label>
+									</div>
+
+									<button class="btn" type="submit">Подписаться</button>
+								</form>
+							</div>
+							<div class="Contact__right-down">
+								<p>
+									подписываясь на новости, вы автоматически
+									<span
+										>соглашаетесь с условиями обработки персональных
+										данных</span
+									>
+									и правилами рекламных рассылок
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer>
+				<div class="wrapper-footer">
+					<div class="footer-col">
+						<div class="footer-up">
+							<h1 class="title-footer">Компания «РумТибет»</h1>
+							<p>
+								Его корни уходят в один фрагмент классической латыни 45 года
+								н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,
+								профессор латыни из колледжа Hampden-Sydney.
+							</p>
+						</div>
+						<div class="footer-down">
+							<div class="gmail">
+								<a href="mail:info">info@domain.com</a>
+							</div>
+							<div class="tel">
+								<a href="tel:">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer-col">
+						<h1 class="title-footer">Наши услуги</h1>
+						<div class="footer-col-un">
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Прогулки в горы летом</a>
+							</div>
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Зимние походы в горы</a>
+							</div>
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Посещение храмов в горах</a>
+							</div>
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Экстремальные виды туризма</a>
+							</div>
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Походы в джунглях Амазонии</a>
+							</div>
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Поездка в Африку</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer-col">
+						<h1 class="title-footer">Важно для путешествий</h1>
+						<div class="footer-col-un">
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Как собрать в долгий поход?</a>
+							</div>
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Жизненно важные предметы для похода</a>
+							</div>
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Медицинская страховка, гарантии безопасности</a>
+							</div>
+							<div class="el-footer-un">
+								<img src="./vendor/img/arrow.svg" alt="arrow" />
+								<a href="#">Если вы врач - загляните сюда</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<p>ИП Константинопольский К.К., 2023</p>
+					<p>Политика обработки персональных данных</p>
+				</div>
+			</footer>
+		</div>
+		<script src="./vendor/libs/airdatepicker/air-datepicker.js"></script>
+		<script>
+			new AirDatepicker("#dataI", {
+				isMobile: true,
+				autoClose: true,
+			})
+		</script>
+	</body>
+</html>
