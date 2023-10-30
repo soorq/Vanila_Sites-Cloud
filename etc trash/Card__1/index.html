@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet">
+
+	<title>Document</title>
+</head>
+
+<body>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Lato', sans-serif;
+		}
+
+		body {
+			background: #222222;
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.card {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-flow: column nowrap;
+			max-width: 550px;
+		}
+
+		.card__content {
+			width: 100%;
+			display: flex;
+			border-radius: 25px 25px 0 0;
+			padding: 35px 0 35px 35px;
+			align-items: center;
+			background: #fff;
+		}
+
+		.card__content_left {
+			height: 100%;
+		}
+
+		.card__content_left h4 {
+			color: #6E99AE;
+			font-family: Lato;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 800;
+			line-height: 15px;
+			letter-spacing: 0.5px;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+
+		.card__content_left h2 {
+			color: #262D33;
+			font-family: Open Sans;
+			font-size: 25px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 30px;
+			margin-bottom: 25px;
+
+		}
+
+		.card__content_left p {
+			color: #4B5157;
+			font-family: Lato;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 20px;
+		}
+
+		.card__content_right img {
+			width: 270px;
+			height: 270px;
+			object-fit: cover;
+		}
+
+		.card__footer {
+			width: 100%;
+			background: #fff;
+			position: relative;
+			padding: 10px 35px;
+		}
+
+		.card__footer::before {
+			content: '';
+			width: 100%;
+			height: 1px;
+			background: #D9DADB;
+			position: absolute;
+			top: 0px;
+			left: 0;
+		}
+
+		.card__footer-content {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 5px;
+		}
+
+		.card__footer_user {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+		}
+
+		.card__footer_avatar {
+			width: 30px;
+			height: 30px;
+		}
+
+		.card__footer_avatar img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 50%;
+		}
+
+		.card__footer_name {
+			color: #262D33;
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 20px;
+		}
+
+		.card__footer_comment {
+			color: #4B5157;
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 15px;
+		}
+
+		.comment__icon {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 5px;
+		}
+
+		.bold {
+			font-weight: 600;
+		}
+	</style>
+	<div class="card">
+		<div class="card__content">
+			<div class="card__content_left">
+				<h4>cars</h4>
+				<h2>The joy of replicas: A $ 5 million car for $ 50,000</h2>
+				<p>The 31-year-old self-taught engineer and former amateur racer spends his days building artful
+					recreations of one of most
+					iconic sports cars</p>
+			</div>
+			<div class="card__content_right">
+				<img src="https://s3-alpha-sig.figma.com/img/13c1/5020/cb4d23b008b30e89346bbabff7bfecc8?Expires=1699833600&Signature=Spt5C7mKLHdMJ9a0ee1Ch0-z7S1TlB4yizEXACQNapxNA0GysKq91R8SbwcZz4akZmPP2-xfbBHAuuniWbnWYnzVwB2Y3ThLNK3yzzf6Qtd6rOdLjOEkH36Cq3qjid6nq4ri68nYuL6Q~RulsfBshUApd2wlvvxPvq-9I5NISrc6yWX8fyOkol2smZhgKY3Uli1Nn8y2ucrUvr81a0Vc6u2dN~CuXTk4wJpTNHq-Meb-OWYJzvmQ8MxCmQQrt6K4KwfhzOKhO0HEXTgCEV11qjNPaSdSBqUL5rNhA5hUkanHJPQ7UY4tzgtcr~2PpiE~~aBAtOHZNRh8dwZpPRLa3A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+					alt="item">
+			</div>
+		</div>
+		<div class="card__footer">
+			<div class="card__footer-content">
+				<div class="card__footer_user">
+					<div class="card__footer_avatar"><img
+							src="https://s3-alpha-sig.figma.com/img/7ea2/5de4/08ae9b683811ec01fe91e0d39413b834?Expires=1699833600&Signature=KCcGZ8byqArZ69n28uqebZkdlLK0VqvHI3iuuf5lSu47mR420RC--J9WSjO30oPCJb8huePpRC0KLQQlOrGirdgm8J5mE~VImMipwlprPU7UMdbX4tqgc5J4~5Et5hvpYjq-h3BcePBWayTvLEte3xqzOpWK9NDlTY3DI0gWwRgpLC37bOMWfMiq-wk~~Pg5FLE3~L2zEqgt1g2AX5VPfEz~MWmovg8abwcharjDBQoxwJth~yK9n8tlodrPBA3d71nct-YwLQHYAN9KIJa3ZFFEitVWErmP5fkERLIOJ9bt7PUiUbkNWYrU~yG907~AWT-cIcGiljgeQGc9j3ggvw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+							alt="avatar"></div>
+					<div class="card__footer_name">
+						<p class="bold">Jessica Miller:</р>
+					</div>
+				</div>
+				<div class="card__footer_comment">
+					<span>Even as the ride-hailing service’s future remem…</span>
+					<span class="comment__icon"><img src="./Comment.svg" alt="ommentIcon">342</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
